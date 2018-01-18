@@ -1,0 +1,42 @@
+<template name="Heading">
+    {{#each profile}}
+        <div class="billboard">
+            <div class="billboard-text">
+                <!-- <h1>57th Anniversary</h1> -->
+            </div>
+            <!-- <ul class="rslides">
+              <li><img src="/img/images/1.jpg" alt=""></li>
+              <li><img src="/img/images/2.jpg" alt=""></li>
+              <li><img src="/img/images/3.jpg" alt=""></li>
+            </ul> -->
+            <section class="page-section clearfix">
+                <div class="container">
+                  <div class="intro">
+                    <ul class="rslides">
+                      <li><img class="intro-img img-fluid mb-3 mb-lg-0 rounded shadow" src="img/bar2.jpg" alt=""></li>
+                      <li><img class="intro-img img-fluid mb-3 mb-lg-0 rounded shadow" src="img/country-fried.jpg" alt=""></li>
+                      <li><img class="intro-img img-fluid mb-3 mb-lg-0 rounded shadow" src="img/pot_roast.jpg" alt=""></li>
+                    </ul>
+                    <div class="intro-text left-0 text-center bg-faded p-5 rounded shadow">
+                      <h2 class="section-heading mb-4">
+                        <span class="section-heading-upper">*Newly remodeled*</span>
+                        <span class="section-heading-lower">Bar and Lounge</span>
+                      </h2>
+                      <p class="mb-3">Enjoy a handmade cocktail or a refreshing draft beer with one of our classic appetizers in our newly remodeled bar!</p>
+                      <div class="intro-button mx-auto">
+                        <a class="btn btn-primary btn-xl shadow" href="#">Check out the menu...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+        </div>
+        <script>
+        $(document).ready(function() {
+          $(function() {
+            $(".rslides").responsiveSlides({"auto": true});
+            });
+          });
+        </script>
+    {{/each}}
+</template>
